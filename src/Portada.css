@@ -1,0 +1,97 @@
+.portada {
+  text-align: center;
+  padding: 40px;
+  background-color: #f0f0f0;
+}
+
+.portada-header {
+  margin-bottom: 20px;
+}
+
+.portada-header h1 {
+  font-size: 36px;
+  color: #333;
+}
+
+.portada-header p {
+  font-size: 16px;
+  color: #555;
+}
+
+.portada-tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.tab {
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #eee;
+  margin: 0 10px;
+  border-radius: 5px;
+}
+
+.tab.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.tab-content {
+  text-align: left;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.encabezado {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #007bff;
+  color: white;
+}
+
+/* Estilos para los enlaces de redes sociales */
+.redes-sociales a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+/* Estilos para la navegación interna */
+.navegacion a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+/* Estilos para los enlaces activos */
+.navegacion a:hover {
+  text-decoration: underline;
+}
+
+.aterrizaje {
+  display: flex;
+  align-items: center;
+  margin: 40px auto;
+  max-width: 800px;
+  justify-content: center;
+}
+
+.avatar img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.biografia h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.biografia p {
+  font-size: 16px;
+  color: #555;
+}
